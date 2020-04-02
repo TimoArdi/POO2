@@ -11,3 +11,5 @@ $monster = new Truck(red,8,fuel,500);
 echo $monster->is_full();
 $monster->setchargement(500);
 echo $monster->is_full();
+echo $monster->forward();
+echo $monster->brake();
